@@ -1,0 +1,9 @@
+img{
+    /* width: 320 px
+        height:180 px */
+
+    max-width: 320px ; /* */
+    height: auto
+    border-radius:  20% ;  /* arredonda as bordas da imagem */
+    opacity: 0.5; 
+}
