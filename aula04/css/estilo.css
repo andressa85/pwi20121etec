@@ -1,0 +1,46 @@
+body {
+
+  background-color: rgb(204, 255, 230);
+
+}
+
+h1 {
+
+  color: rgb(0, 34, 102);
+
+}
+
+h2{
+
+  color: rgb(0, 34, 102);
+
+}
+
+p {
+
+  color: rgb(179, 0, 179);
+
+}
+
+li{
+
+ color: rgb(102, 0, 102);
+
+}
+
+img{
+
+   max-width: 100%;
+
+   height: auto;
+
+   border: 1px solid #ddd;
+
+  border-radius: 4px;
+
+  padding: 5px;
+
+  
+
+  
+}
