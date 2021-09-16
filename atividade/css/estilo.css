@@ -4,14 +4,16 @@ body {
 
 }
 
-h1 {
+h1{
 
+  background-color: rgb(245, 255, 250);
   color: rgb(0, 34, 102);
 
 }
 
 h2{
 
+  background-color: rgb(245, 255, 250);
   color: rgb(0, 34, 102);
 
 }
