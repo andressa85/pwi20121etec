@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link
+                rel="stylesheet"
+                href="css/estilocomosempre.css">
+
+        <title>Fazendo outro formulário</title>
+    </head>
+
+    <body>
+        <h3>Formulário improvisado</h3>
+        <form>
+            <fieldset>
+                <legend>Quem é você, ser mortal? Identifique-se!</legend>
+                <label for="Nome"> Seu Nome: </label><br>
+                <input type="text" id="Nome" name="Nome" value=""> <br> <br>
+                <label for="sobrenome"> Sobrenome: </label><br>
+                <input type="text" id="sobrenome" name="sobrenome" value=""> <br>
+            </fieldset>
+
+            <h3> Quais desses pets você tem?</h3>
+                <input list="Pets" name="Pets">
+                <datalist id="Pets">
+                    <option value="Cachorro">
+                    <option value="Gato">
+                    <option value="Pássaro">
+                    <option value="Hamster">
+                    <option value="Tartaruga">
+                    <option value="Coelho">
+                    <option value="Outro">
+                </datalist>
+
+            <h3>Escreva mais sobre você</h3>
+            <textarea name="Sobre" rows="10" cols="70">Escreva aqui qualquer coisa</textarea>
+            <br>
+            <br>
+
+            <button type="botão" onclick="alert('Você achou que teria algo aqui? Mas era EU DIO!!!')">
+            Clique aqui!!</button>
+         </form>  
+         
+        
+    </body>
+
+</html>
