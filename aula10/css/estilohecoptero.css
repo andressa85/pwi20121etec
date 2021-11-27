@@ -40,4 +40,88 @@ body{
     background-color: rgba(255, 255, 255, 0.05);
 }
 
+.tail{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    transform-origin: left center;
+    border-top: 10px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 350px solid #2fadd2;
+    border-bottom-right-radius: 10px;
+    height: 10px;
+}
+
+.main{
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    width: 40px;
+    height: 20px;
+    background: #302e37;
+}
+
+.rotor{
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    position: absolute;
+    top: -360px;
+    left:-200px;
+    z-index: 2;
+    overflow: hidden;
+    background-color: #a299ab;
+    opacity: 0.12;
+    transform: scaleY(0.075);
+}
+
+.rotator div{
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    margin-top: -350px;
+    margin-left: -30px;
+    width: 700px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.rotator div:nth-child(1){
+    transform: rotate(0deg);
+}
+
+.rotator div:nth-child(2){
+    transform: rotate(90deg);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0px, -50px) rotate(-15deg);
+    }
+    50% {
+        transform: translate(0px, 50px); rotate: (-10deg);
+    }
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.helicopter {
+    animation: bounce 5s infinite;
+
+}
+
+.rotator {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    animation: rotate 0.6s linear infinite;
 }
