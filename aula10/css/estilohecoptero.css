@@ -4,6 +4,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('https://i.gifer.com/WMV.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .cockpit{
@@ -114,6 +118,8 @@ body{
 }
 
 .helicopter {
+    position: absolute;
+    top: 310px;
     animation: bounce 5s infinite;
 
 }
