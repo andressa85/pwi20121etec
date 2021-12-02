@@ -6,8 +6,9 @@ body{
     justify-content: center;
     background-image: url('https://i.gifer.com/WMV.gif');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .cockpit{
@@ -119,7 +120,7 @@ body{
 
 .helicopter {
     position: absolute;
-    top: 310px;
+    top: 280px;
     animation: bounce 5s infinite;
 
 }
